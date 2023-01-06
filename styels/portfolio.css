@@ -1,0 +1,141 @@
+*{
+ margin: 0;
+ font-family: 'Open Sans', sans-serif;
+}
+/* Button style */
+.header-btn{
+    padding: 18px 36px;
+    background-color: #FD6E0A;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+
+}
+/* header and navigation style */
+nav{
+    display: flex;
+  
+}
+nav{
+    justify-content: space-between;
+    margin: 0px  150px;
+    padding-top: 50px;
+}
+h2 .nav-title{
+    font-weight: 80px;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+/* banner style */
+.banner{
+    margin: 0 150px;
+    display: flex;
+   align-items: center;
+}
+.header-section{
+     background-color: #fff8f3; 
+     background-image: url(../images/header_bg.png), url(../images/developer.png); 
+     background-repeat: no-repeat;
+     background-position: bottom right, left;
+
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-bottom: 5px;
+}
+.banner-subtitli{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.banner-des{
+   font-weight: 400px;
+font-size: 18px;
+color: #757575;
+margin-bottom: 20px;
+}
+.banner{
+  
+   
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+/* Main style */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About section style */
+.about-me{
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    margin: 130px 0;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.section-title{
+    margin-bottom: 30px;
+
+}
+/* about-info-container style */
+
+.information-section{
+ display: flex;
+ justify-content: space-around;
+}
+.about-info-title{
+   font-size: 18px;
+   color: #757575;
+
+}
+.about-info-description{
+font-size: 20px;
+font-weight: 700;
+color: #474747;
+}
+
+
+/* what i do style */
+.what-i-do{
+   text-align: center;
+   padding: 50px 30px 0 0;
+}
+/* SKILL STYLE */
+.skill-container{
+display: flex;
+gap: 24px;
+margin-top: 50px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-tltle{
+font-weight: 700px;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+/* my resumy section */
+.resumy h3{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
